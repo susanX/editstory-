@@ -1,2 +1,2 @@
-##Heading
-#text
+## Heading
+# text

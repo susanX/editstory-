@@ -1,14 +1,14 @@
-document.getElementById('one').onclick = newList;
-
 var item1;
 var item2:
 var item3:
 
+document.getElementById('one').onclick = newList;
+
 function newList(){
     
-    item1 = prompt("Enter a new fist item").innerHTML = item1;    
-    item2 = prompt("Enter a new fist item").innerHTML = item2; 
-    item3 = prompt("Enter a new fist item").innerHTML = item3; 
+    item1 = prompt("Enter a new fist item:");   
+    item2 = prompt("Enter a new fist item"); 
+    item3 = prompt("Enter a new fist item"); 
     updateList();
 }
 

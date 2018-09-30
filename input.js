@@ -2,10 +2,9 @@ var item1;
 var item2:
 var item3:
 
-document.getElementById('one').onclick = newList;
+document.getElementById('changeList').onclick = newList;
 
-function newList(){
-    
+function newList(){   
     item1 = prompt("Enter a new fist item:");   
     item2 = prompt("Enter a new fist item"); 
     item3 = prompt("Enter a new fist item"); 
